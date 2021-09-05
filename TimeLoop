@@ -1,0 +1,17 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        string inp = Console.ReadLine();
+        int count = int.Parse(inp);
+        int i = 1;
+
+        while (i <= count)
+        {
+            Console.WriteLine(i + " Abracadabra");
+            i++;
+        }
+    }
+}
